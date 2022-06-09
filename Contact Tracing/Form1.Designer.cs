@@ -620,7 +620,10 @@
             this.Controls.Add(this.FirstName);
             this.Controls.Add(this.title);
             this.DoubleBuffered = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "ContactTracing";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contact Tracing";
             this.ResumeLayout(false);
             this.PerformLayout();
