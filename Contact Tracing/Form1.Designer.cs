@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ContactTracing));
             this.title = new System.Windows.Forms.Label();
             this.FirstName = new System.Windows.Forms.Label();
             this.txtboxFN = new System.Windows.Forms.TextBox();
@@ -81,12 +82,15 @@
             // title
             // 
             this.title.AutoSize = true;
-            this.title.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.title.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.title.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.title.Image = ((System.Drawing.Image)(resources.GetObject("title.Image")));
             this.title.Location = new System.Drawing.Point(212, 24);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(277, 31);
+            this.title.Size = new System.Drawing.Size(290, 37);
             this.title.TabIndex = 0;
             this.title.Text = "Contact Tracing Form";
+            this.title.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // FirstName
             // 
@@ -99,6 +103,8 @@
             // 
             // txtboxFN
             // 
+            this.txtboxFN.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxFN.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxFN.Location = new System.Drawing.Point(80, 79);
             this.txtboxFN.Name = "txtboxFN";
             this.txtboxFN.Size = new System.Drawing.Size(133, 20);
@@ -116,6 +122,8 @@
             // 
             // txtboxMN
             // 
+            this.txtboxMN.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxMN.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxMN.Location = new System.Drawing.Point(310, 79);
             this.txtboxMN.Name = "txtboxMN";
             this.txtboxMN.Size = new System.Drawing.Size(74, 20);
@@ -141,6 +149,8 @@
             // 
             // txtboxLN
             // 
+            this.txtboxLN.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxLN.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxLN.Location = new System.Drawing.Point(467, 79);
             this.txtboxLN.Name = "txtboxLN";
             this.txtboxLN.Size = new System.Drawing.Size(114, 20);
@@ -148,6 +158,8 @@
             // 
             // txtboxSuffix
             // 
+            this.txtboxSuffix.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxSuffix.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxSuffix.Location = new System.Drawing.Point(652, 79);
             this.txtboxSuffix.Name = "txtboxSuffix";
             this.txtboxSuffix.Size = new System.Drawing.Size(74, 20);
@@ -164,6 +176,8 @@
             // 
             // txtboxbirthdate
             // 
+            this.txtboxbirthdate.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxbirthdate.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxbirthdate.Location = new System.Drawing.Point(139, 129);
             this.txtboxbirthdate.Name = "txtboxbirthdate";
             this.txtboxbirthdate.Size = new System.Drawing.Size(94, 20);
@@ -199,6 +213,8 @@
             // 
             // txtboxgender
             // 
+            this.txtboxgender.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxgender.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxgender.Location = new System.Drawing.Point(453, 129);
             this.txtboxgender.Name = "txtboxgender";
             this.txtboxgender.Size = new System.Drawing.Size(74, 20);
@@ -207,6 +223,8 @@
             // 
             // txtboxage
             // 
+            this.txtboxage.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxage.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxage.Location = new System.Drawing.Point(290, 129);
             this.txtboxage.Name = "txtboxage";
             this.txtboxage.Size = new System.Drawing.Size(74, 20);
@@ -214,6 +232,8 @@
             // 
             // txtboxcivilstatus
             // 
+            this.txtboxcivilstatus.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxcivilstatus.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxcivilstatus.Location = new System.Drawing.Point(621, 129);
             this.txtboxcivilstatus.Name = "txtboxcivilstatus";
             this.txtboxcivilstatus.Size = new System.Drawing.Size(105, 20);
@@ -257,6 +277,8 @@
             // 
             // txtboxBarangay
             // 
+            this.txtboxBarangay.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxBarangay.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxBarangay.Location = new System.Drawing.Point(616, 182);
             this.txtboxBarangay.Name = "txtboxBarangay";
             this.txtboxBarangay.Size = new System.Drawing.Size(110, 20);
@@ -264,6 +286,8 @@
             // 
             // txtboxStreet
             // 
+            this.txtboxStreet.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxStreet.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxStreet.Location = new System.Drawing.Point(442, 182);
             this.txtboxStreet.Name = "txtboxStreet";
             this.txtboxStreet.Size = new System.Drawing.Size(94, 20);
@@ -271,6 +295,8 @@
             // 
             // txtboxCity
             // 
+            this.txtboxCity.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxCity.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxCity.Location = new System.Drawing.Point(228, 182);
             this.txtboxCity.Name = "txtboxCity";
             this.txtboxCity.Size = new System.Drawing.Size(112, 20);
@@ -278,6 +304,8 @@
             // 
             // txtboxRegion
             // 
+            this.txtboxRegion.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxRegion.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxRegion.Location = new System.Drawing.Point(64, 182);
             this.txtboxRegion.Name = "txtboxRegion";
             this.txtboxRegion.Size = new System.Drawing.Size(105, 20);
@@ -312,6 +340,8 @@
             // 
             // txtboxEmailAdd
             // 
+            this.txtboxEmailAdd.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxEmailAdd.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxEmailAdd.Location = new System.Drawing.Point(96, 230);
             this.txtboxEmailAdd.Name = "txtboxEmailAdd";
             this.txtboxEmailAdd.Size = new System.Drawing.Size(178, 20);
@@ -319,6 +349,8 @@
             // 
             // txtboxMobileNum
             // 
+            this.txtboxMobileNum.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxMobileNum.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxMobileNum.Location = new System.Drawing.Point(394, 230);
             this.txtboxMobileNum.Name = "txtboxMobileNum";
             this.txtboxMobileNum.Size = new System.Drawing.Size(105, 20);
@@ -326,6 +358,8 @@
             // 
             // txtboxTelephonNum
             // 
+            this.txtboxTelephonNum.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxTelephonNum.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxTelephonNum.Location = new System.Drawing.Point(621, 230);
             this.txtboxTelephonNum.Name = "txtboxTelephonNum";
             this.txtboxTelephonNum.Size = new System.Drawing.Size(105, 20);
@@ -351,6 +385,8 @@
             // 
             // txtboxVaccinatedorNot
             // 
+            this.txtboxVaccinatedorNot.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxVaccinatedorNot.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxVaccinatedorNot.Location = new System.Drawing.Point(128, 304);
             this.txtboxVaccinatedorNot.Name = "txtboxVaccinatedorNot";
             this.txtboxVaccinatedorNot.Size = new System.Drawing.Size(69, 20);
@@ -367,6 +403,8 @@
             // 
             // txtbox1stDose
             // 
+            this.txtbox1stDose.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbox1stDose.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtbox1stDose.Location = new System.Drawing.Point(290, 304);
             this.txtbox1stDose.Name = "txtbox1stDose";
             this.txtbox1stDose.Size = new System.Drawing.Size(69, 20);
@@ -383,6 +421,8 @@
             // 
             // txtbox2ndDose
             // 
+            this.txtbox2ndDose.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbox2ndDose.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtbox2ndDose.Location = new System.Drawing.Point(466, 304);
             this.txtbox2ndDose.Name = "txtbox2ndDose";
             this.txtbox2ndDose.Size = new System.Drawing.Size(69, 20);
@@ -399,6 +439,8 @@
             // 
             // txtboxBooster
             // 
+            this.txtboxBooster.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxBooster.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxBooster.Location = new System.Drawing.Point(632, 304);
             this.txtboxBooster.Name = "txtboxBooster";
             this.txtboxBooster.Size = new System.Drawing.Size(69, 20);
@@ -424,6 +466,8 @@
             // 
             // txtboxDate
             // 
+            this.txtboxDate.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxDate.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxDate.Location = new System.Drawing.Point(116, 380);
             this.txtboxDate.Name = "txtboxDate";
             this.txtboxDate.Size = new System.Drawing.Size(206, 20);
@@ -440,6 +484,8 @@
             // 
             // txtboxTime
             // 
+            this.txtboxTime.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxTime.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxTime.Location = new System.Drawing.Point(520, 380);
             this.txtboxTime.Name = "txtboxTime";
             this.txtboxTime.Size = new System.Drawing.Size(206, 20);
@@ -447,32 +493,37 @@
             // 
             // bttnSubmit
             // 
+            this.bttnSubmit.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.bttnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnSubmit.ForeColor = System.Drawing.SystemColors.ControlText;
             this.bttnSubmit.Location = new System.Drawing.Point(17, 448);
             this.bttnSubmit.Name = "bttnSubmit";
             this.bttnSubmit.Size = new System.Drawing.Size(131, 26);
             this.bttnSubmit.TabIndex = 46;
             this.bttnSubmit.Text = "Submit";
-            this.bttnSubmit.UseVisualStyleBackColor = true;
+            this.bttnSubmit.UseVisualStyleBackColor = false;
             this.bttnSubmit.Click += new System.EventHandler(this.bttnSubmit_Click);
             // 
             // closing
             // 
             this.closing.AutoSize = true;
-            this.closing.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.closing.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.closing.Location = new System.Drawing.Point(295, 423);
             this.closing.Name = "closing";
-            this.closing.Size = new System.Drawing.Size(150, 20);
+            this.closing.Size = new System.Drawing.Size(138, 19);
             this.closing.TabIndex = 47;
             this.closing.Text = "Thank you so much!";
             // 
             // bttnExit
             // 
+            this.bttnExit.BackColor = System.Drawing.Color.OrangeRed;
+            this.bttnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnExit.Location = new System.Drawing.Point(595, 448);
             this.bttnExit.Name = "bttnExit";
             this.bttnExit.Size = new System.Drawing.Size(131, 26);
             this.bttnExit.TabIndex = 48;
             this.bttnExit.Text = "Exit";
-            this.bttnExit.UseVisualStyleBackColor = true;
+            this.bttnExit.UseVisualStyleBackColor = false;
             this.bttnExit.Click += new System.EventHandler(this.bttnExit_Click);
             // 
             // ContactTracing
@@ -528,6 +579,7 @@
             this.Controls.Add(this.txtboxFN);
             this.Controls.Add(this.FirstName);
             this.Controls.Add(this.title);
+            this.DoubleBuffered = true;
             this.Name = "ContactTracing";
             this.Text = "Contact Tracing";
             this.ResumeLayout(false);
