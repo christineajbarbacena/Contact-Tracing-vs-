@@ -53,6 +53,12 @@
             this.txtboxStreet = new System.Windows.Forms.TextBox();
             this.txtboxCity = new System.Windows.Forms.TextBox();
             this.txtboxRegion = new System.Windows.Forms.TextBox();
+            this.EmailAdd = new System.Windows.Forms.Label();
+            this.TelephoneNumber = new System.Windows.Forms.Label();
+            this.MobileNumber = new System.Windows.Forms.Label();
+            this.txtboxEmailAdd = new System.Windows.Forms.TextBox();
+            this.txtboxMobileNum = new System.Windows.Forms.TextBox();
+            this.txtboxTelephonNum = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // title
@@ -260,11 +266,65 @@
             this.txtboxRegion.Size = new System.Drawing.Size(105, 20);
             this.txtboxRegion.TabIndex = 24;
             // 
+            // EmailAdd
+            // 
+            this.EmailAdd.AutoSize = true;
+            this.EmailAdd.Location = new System.Drawing.Point(14, 237);
+            this.EmailAdd.Name = "EmailAdd";
+            this.EmailAdd.Size = new System.Drawing.Size(76, 13);
+            this.EmailAdd.TabIndex = 25;
+            this.EmailAdd.Text = "Email Address:";
+            // 
+            // TelephoneNumber
+            // 
+            this.TelephoneNumber.AutoSize = true;
+            this.TelephoneNumber.Location = new System.Drawing.Point(514, 237);
+            this.TelephoneNumber.Name = "TelephoneNumber";
+            this.TelephoneNumber.Size = new System.Drawing.Size(101, 13);
+            this.TelephoneNumber.TabIndex = 26;
+            this.TelephoneNumber.Text = "Telephone Number:";
+            // 
+            // MobileNumber
+            // 
+            this.MobileNumber.AutoSize = true;
+            this.MobileNumber.Location = new System.Drawing.Point(307, 237);
+            this.MobileNumber.Name = "MobileNumber";
+            this.MobileNumber.Size = new System.Drawing.Size(81, 13);
+            this.MobileNumber.TabIndex = 28;
+            this.MobileNumber.Text = "Mobile Number:";
+            // 
+            // txtboxEmailAdd
+            // 
+            this.txtboxEmailAdd.Location = new System.Drawing.Point(96, 230);
+            this.txtboxEmailAdd.Name = "txtboxEmailAdd";
+            this.txtboxEmailAdd.Size = new System.Drawing.Size(178, 20);
+            this.txtboxEmailAdd.TabIndex = 29;
+            // 
+            // txtboxMobileNum
+            // 
+            this.txtboxMobileNum.Location = new System.Drawing.Point(394, 230);
+            this.txtboxMobileNum.Name = "txtboxMobileNum";
+            this.txtboxMobileNum.Size = new System.Drawing.Size(105, 20);
+            this.txtboxMobileNum.TabIndex = 30;
+            // 
+            // txtboxTelephonNum
+            // 
+            this.txtboxTelephonNum.Location = new System.Drawing.Point(621, 230);
+            this.txtboxTelephonNum.Name = "txtboxTelephonNum";
+            this.txtboxTelephonNum.Size = new System.Drawing.Size(105, 20);
+            this.txtboxTelephonNum.TabIndex = 31;
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(738, 413);
+            this.Controls.Add(this.txtboxTelephonNum);
+            this.Controls.Add(this.txtboxMobileNum);
+            this.Controls.Add(this.txtboxEmailAdd);
+            this.Controls.Add(this.MobileNumber);
+            this.Controls.Add(this.TelephoneNumber);
+            this.Controls.Add(this.EmailAdd);
             this.Controls.Add(this.txtboxRegion);
             this.Controls.Add(this.txtboxCity);
             this.Controls.Add(this.txtboxStreet);
@@ -324,6 +384,12 @@
         private System.Windows.Forms.TextBox txtboxStreet;
         private System.Windows.Forms.TextBox txtboxCity;
         private System.Windows.Forms.TextBox txtboxRegion;
+        private System.Windows.Forms.Label EmailAdd;
+        private System.Windows.Forms.Label TelephoneNumber;
+        private System.Windows.Forms.Label MobileNumber;
+        private System.Windows.Forms.TextBox txtboxEmailAdd;
+        private System.Windows.Forms.TextBox txtboxMobileNum;
+        private System.Windows.Forms.TextBox txtboxTelephonNum;
     }
 }
 
