@@ -69,6 +69,10 @@
             this.Booster = new System.Windows.Forms.Label();
             this.txtboxBooster = new System.Windows.Forms.TextBox();
             this.VisitationDetails = new System.Windows.Forms.Label();
+            this.Date = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Time = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // title
@@ -406,11 +410,47 @@
             this.VisitationDetails.TabIndex = 41;
             this.VisitationDetails.Text = "Visitation Details";
             // 
+            // Date
+            // 
+            this.Date.AutoSize = true;
+            this.Date.Location = new System.Drawing.Point(14, 387);
+            this.Date.Name = "Date";
+            this.Date.Size = new System.Drawing.Size(96, 13);
+            this.Date.TabIndex = 42;
+            this.Date.Text = "Date (MM-DD-YY):";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(116, 380);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(206, 20);
+            this.textBox1.TabIndex = 43;
+            // 
+            // Time
+            // 
+            this.Time.AutoSize = true;
+            this.Time.Location = new System.Drawing.Point(481, 387);
+            this.Time.Name = "Time";
+            this.Time.Size = new System.Drawing.Size(33, 13);
+            this.Time.TabIndex = 44;
+            this.Time.Text = "Time:";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(520, 380);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(206, 20);
+            this.textBox2.TabIndex = 45;
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(738, 480);
+            this.ClientSize = new System.Drawing.Size(738, 486);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.Time);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Date);
             this.Controls.Add(this.VisitationDetails);
             this.Controls.Add(this.txtboxBooster);
             this.Controls.Add(this.Booster);
@@ -502,6 +542,10 @@
         private System.Windows.Forms.Label Booster;
         private System.Windows.Forms.TextBox txtboxBooster;
         private System.Windows.Forms.Label VisitationDetails;
+        private System.Windows.Forms.Label Date;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label Time;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 
