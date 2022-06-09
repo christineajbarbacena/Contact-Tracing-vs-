@@ -45,6 +45,14 @@
             this.txtboxgender = new System.Windows.Forms.TextBox();
             this.txtboxage = new System.Windows.Forms.TextBox();
             this.txtboxcivilstatus = new System.Windows.Forms.TextBox();
+            this.Barangay = new System.Windows.Forms.Label();
+            this.Region = new System.Windows.Forms.Label();
+            this.Street = new System.Windows.Forms.Label();
+            this.City = new System.Windows.Forms.Label();
+            this.txtboxBarangay = new System.Windows.Forms.TextBox();
+            this.txtboxStreet = new System.Windows.Forms.TextBox();
+            this.txtboxCity = new System.Windows.Forms.TextBox();
+            this.txtboxRegion = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // title
@@ -141,7 +149,7 @@
             // Gender
             // 
             this.Gender.AutoSize = true;
-            this.Gender.Location = new System.Drawing.Point(385, 136);
+            this.Gender.Location = new System.Drawing.Point(400, 136);
             this.Gender.Name = "Gender";
             this.Gender.Size = new System.Drawing.Size(45, 13);
             this.Gender.TabIndex = 11;
@@ -188,11 +196,83 @@
             this.txtboxcivilstatus.Size = new System.Drawing.Size(105, 20);
             this.txtboxcivilstatus.TabIndex = 16;
             // 
+            // Barangay
+            // 
+            this.Barangay.AutoSize = true;
+            this.Barangay.Location = new System.Drawing.Point(555, 189);
+            this.Barangay.Name = "Barangay";
+            this.Barangay.Size = new System.Drawing.Size(55, 13);
+            this.Barangay.TabIndex = 17;
+            this.Barangay.Text = "Barangay:";
+            // 
+            // Region
+            // 
+            this.Region.AutoSize = true;
+            this.Region.Location = new System.Drawing.Point(14, 189);
+            this.Region.Name = "Region";
+            this.Region.Size = new System.Drawing.Size(44, 13);
+            this.Region.TabIndex = 18;
+            this.Region.Text = "Region:";
+            // 
+            // Street
+            // 
+            this.Street.AutoSize = true;
+            this.Street.Location = new System.Drawing.Point(367, 189);
+            this.Street.Name = "Street";
+            this.Street.Size = new System.Drawing.Size(69, 13);
+            this.Street.TabIndex = 19;
+            this.Street.Text = "Street Name:";
+            // 
+            // City
+            // 
+            this.City.AutoSize = true;
+            this.City.Location = new System.Drawing.Point(195, 189);
+            this.City.Name = "City";
+            this.City.Size = new System.Drawing.Size(27, 13);
+            this.City.TabIndex = 20;
+            this.City.Text = "City:";
+            // 
+            // txtboxBarangay
+            // 
+            this.txtboxBarangay.Location = new System.Drawing.Point(616, 182);
+            this.txtboxBarangay.Name = "txtboxBarangay";
+            this.txtboxBarangay.Size = new System.Drawing.Size(110, 20);
+            this.txtboxBarangay.TabIndex = 21;
+            // 
+            // txtboxStreet
+            // 
+            this.txtboxStreet.Location = new System.Drawing.Point(442, 182);
+            this.txtboxStreet.Name = "txtboxStreet";
+            this.txtboxStreet.Size = new System.Drawing.Size(94, 20);
+            this.txtboxStreet.TabIndex = 22;
+            // 
+            // txtboxCity
+            // 
+            this.txtboxCity.Location = new System.Drawing.Point(228, 182);
+            this.txtboxCity.Name = "txtboxCity";
+            this.txtboxCity.Size = new System.Drawing.Size(112, 20);
+            this.txtboxCity.TabIndex = 23;
+            // 
+            // txtboxRegion
+            // 
+            this.txtboxRegion.Location = new System.Drawing.Point(64, 182);
+            this.txtboxRegion.Name = "txtboxRegion";
+            this.txtboxRegion.Size = new System.Drawing.Size(105, 20);
+            this.txtboxRegion.TabIndex = 24;
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(738, 413);
+            this.Controls.Add(this.txtboxRegion);
+            this.Controls.Add(this.txtboxCity);
+            this.Controls.Add(this.txtboxStreet);
+            this.Controls.Add(this.txtboxBarangay);
+            this.Controls.Add(this.City);
+            this.Controls.Add(this.Street);
+            this.Controls.Add(this.Region);
+            this.Controls.Add(this.Barangay);
             this.Controls.Add(this.txtboxcivilstatus);
             this.Controls.Add(this.txtboxage);
             this.Controls.Add(this.txtboxgender);
@@ -236,6 +316,14 @@
         private System.Windows.Forms.TextBox txtboxgender;
         private System.Windows.Forms.TextBox txtboxage;
         private System.Windows.Forms.TextBox txtboxcivilstatus;
+        private System.Windows.Forms.Label Barangay;
+        private System.Windows.Forms.Label Region;
+        private System.Windows.Forms.Label Street;
+        private System.Windows.Forms.Label City;
+        private System.Windows.Forms.TextBox txtboxBarangay;
+        private System.Windows.Forms.TextBox txtboxStreet;
+        private System.Windows.Forms.TextBox txtboxCity;
+        private System.Windows.Forms.TextBox txtboxRegion;
     }
 }
 
