@@ -70,10 +70,11 @@
             this.txtboxBooster = new System.Windows.Forms.TextBox();
             this.VisitationDetails = new System.Windows.Forms.Label();
             this.Date = new System.Windows.Forms.Label();
-            this.txboxDate = new System.Windows.Forms.TextBox();
+            this.txtboxDate = new System.Windows.Forms.TextBox();
             this.Time = new System.Windows.Forms.Label();
             this.txtboxTime = new System.Windows.Forms.TextBox();
             this.bttnSubmit = new System.Windows.Forms.Button();
+            this.closing = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // title
@@ -420,12 +421,12 @@
             this.Date.TabIndex = 42;
             this.Date.Text = "Date (MM-DD-YY):";
             // 
-            // txboxDate
+            // txtboxDate
             // 
-            this.txboxDate.Location = new System.Drawing.Point(116, 380);
-            this.txboxDate.Name = "txboxDate";
-            this.txboxDate.Size = new System.Drawing.Size(206, 20);
-            this.txboxDate.TabIndex = 43;
+            this.txtboxDate.Location = new System.Drawing.Point(116, 380);
+            this.txtboxDate.Name = "txtboxDate";
+            this.txtboxDate.Size = new System.Drawing.Size(206, 20);
+            this.txtboxDate.TabIndex = 43;
             // 
             // Time
             // 
@@ -445,7 +446,7 @@
             // 
             // bttnSubmit
             // 
-            this.bttnSubmit.Location = new System.Drawing.Point(336, 441);
+            this.bttnSubmit.Location = new System.Drawing.Point(17, 448);
             this.bttnSubmit.Name = "bttnSubmit";
             this.bttnSubmit.Size = new System.Drawing.Size(131, 26);
             this.bttnSubmit.TabIndex = 46;
@@ -453,15 +454,26 @@
             this.bttnSubmit.UseVisualStyleBackColor = true;
             this.bttnSubmit.Click += new System.EventHandler(this.bttnSubmit_Click);
             // 
+            // closing
+            // 
+            this.closing.AutoSize = true;
+            this.closing.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.closing.Location = new System.Drawing.Point(237, 413);
+            this.closing.Name = "closing";
+            this.closing.Size = new System.Drawing.Size(150, 20);
+            this.closing.TabIndex = 47;
+            this.closing.Text = "Thank you so much!";
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(738, 486);
+            this.Controls.Add(this.closing);
             this.Controls.Add(this.bttnSubmit);
             this.Controls.Add(this.txtboxTime);
             this.Controls.Add(this.Time);
-            this.Controls.Add(this.txboxDate);
+            this.Controls.Add(this.txtboxDate);
             this.Controls.Add(this.Date);
             this.Controls.Add(this.VisitationDetails);
             this.Controls.Add(this.txtboxBooster);
@@ -555,10 +567,11 @@
         private System.Windows.Forms.TextBox txtboxBooster;
         private System.Windows.Forms.Label VisitationDetails;
         private System.Windows.Forms.Label Date;
-        private System.Windows.Forms.TextBox txboxDate;
+        private System.Windows.Forms.TextBox txtboxDate;
         private System.Windows.Forms.Label Time;
         private System.Windows.Forms.TextBox txtboxTime;
         private System.Windows.Forms.Button bttnSubmit;
+        private System.Windows.Forms.Label closing;
     }
 }
 

@@ -52,11 +52,14 @@ namespace Contact_Tracing
             file.WriteLine ("Email Address:" + txtboxEmailAdd.Text);
             file.WriteLine ("Mobile Number:" + txtboxMobileNum.Text);
             file.WriteLine ("Telephone Number:" + txtboxTelephonNum.Text);
-            file.WriteLine ("" + );
-            file.WriteLine ("" + );
-            file.WriteLine ("" + );
-            file.WriteLine ("" + );
-            file.WriteLine ("" + );
+            file.WriteLine ("VACCINE DETAILS");
+            file.WriteLine ("Are you vaccinated?" + txtboxVaccinatedorNot.Text);
+            file.WriteLine ("First Dose:" + txtbox1stDose.Text);
+            file.WriteLine ("Second Dose:" + txtbox2ndDose.Text);
+            file.WriteLine ("Booster Shot:" + txtboxBooster.Text);
+            file.WriteLine ("VISITATION DETAILS");
+            file.WriteLine ("Date: " + txtboxDate.Text);
+            file.WriteLine ("Time: " + txtboxTime.Text);
             file.Close();
         }
     }
