@@ -77,6 +77,7 @@
             this.bttnSubmit = new System.Windows.Forms.Button();
             this.closing = new System.Windows.Forms.Label();
             this.bttnExit = new System.Windows.Forms.Button();
+            this.PersonalInfo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // title
@@ -85,7 +86,7 @@
             this.title.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.title.Image = ((System.Drawing.Image)(resources.GetObject("title.Image")));
-            this.title.Location = new System.Drawing.Point(212, 24);
+            this.title.Location = new System.Drawing.Point(209, 9);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(290, 37);
             this.title.TabIndex = 0;
@@ -104,6 +105,7 @@
             // txtboxFN
             // 
             this.txtboxFN.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxFN.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboxFN.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxFN.Location = new System.Drawing.Point(80, 79);
             this.txtboxFN.Name = "txtboxFN";
@@ -123,6 +125,7 @@
             // txtboxMN
             // 
             this.txtboxMN.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxMN.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboxMN.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxMN.Location = new System.Drawing.Point(310, 79);
             this.txtboxMN.Name = "txtboxMN";
@@ -150,6 +153,7 @@
             // txtboxLN
             // 
             this.txtboxLN.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxLN.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboxLN.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxLN.Location = new System.Drawing.Point(467, 79);
             this.txtboxLN.Name = "txtboxLN";
@@ -159,6 +163,7 @@
             // txtboxSuffix
             // 
             this.txtboxSuffix.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxSuffix.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboxSuffix.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxSuffix.Location = new System.Drawing.Point(652, 79);
             this.txtboxSuffix.Name = "txtboxSuffix";
@@ -177,6 +182,7 @@
             // txtboxbirthdate
             // 
             this.txtboxbirthdate.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxbirthdate.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboxbirthdate.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxbirthdate.Location = new System.Drawing.Point(139, 129);
             this.txtboxbirthdate.Name = "txtboxbirthdate";
@@ -214,6 +220,7 @@
             // txtboxgender
             // 
             this.txtboxgender.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxgender.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboxgender.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxgender.Location = new System.Drawing.Point(453, 129);
             this.txtboxgender.Name = "txtboxgender";
@@ -224,6 +231,7 @@
             // txtboxage
             // 
             this.txtboxage.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxage.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboxage.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxage.Location = new System.Drawing.Point(290, 129);
             this.txtboxage.Name = "txtboxage";
@@ -233,6 +241,7 @@
             // txtboxcivilstatus
             // 
             this.txtboxcivilstatus.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxcivilstatus.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboxcivilstatus.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxcivilstatus.Location = new System.Drawing.Point(621, 129);
             this.txtboxcivilstatus.Name = "txtboxcivilstatus";
@@ -278,6 +287,7 @@
             // txtboxBarangay
             // 
             this.txtboxBarangay.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxBarangay.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboxBarangay.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxBarangay.Location = new System.Drawing.Point(616, 182);
             this.txtboxBarangay.Name = "txtboxBarangay";
@@ -287,6 +297,7 @@
             // txtboxStreet
             // 
             this.txtboxStreet.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxStreet.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboxStreet.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxStreet.Location = new System.Drawing.Point(442, 182);
             this.txtboxStreet.Name = "txtboxStreet";
@@ -296,6 +307,7 @@
             // txtboxCity
             // 
             this.txtboxCity.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxCity.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboxCity.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxCity.Location = new System.Drawing.Point(228, 182);
             this.txtboxCity.Name = "txtboxCity";
@@ -305,6 +317,7 @@
             // txtboxRegion
             // 
             this.txtboxRegion.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxRegion.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtboxRegion.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxRegion.Location = new System.Drawing.Point(64, 182);
             this.txtboxRegion.Name = "txtboxRegion";
@@ -341,6 +354,7 @@
             // txtboxEmailAdd
             // 
             this.txtboxEmailAdd.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxEmailAdd.Font = new System.Drawing.Font("Arial", 8.25F);
             this.txtboxEmailAdd.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxEmailAdd.Location = new System.Drawing.Point(96, 230);
             this.txtboxEmailAdd.Name = "txtboxEmailAdd";
@@ -350,6 +364,7 @@
             // txtboxMobileNum
             // 
             this.txtboxMobileNum.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxMobileNum.Font = new System.Drawing.Font("Arial", 8.25F);
             this.txtboxMobileNum.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxMobileNum.Location = new System.Drawing.Point(394, 230);
             this.txtboxMobileNum.Name = "txtboxMobileNum";
@@ -359,6 +374,7 @@
             // txtboxTelephonNum
             // 
             this.txtboxTelephonNum.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxTelephonNum.Font = new System.Drawing.Font("Arial", 8.25F);
             this.txtboxTelephonNum.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxTelephonNum.Location = new System.Drawing.Point(621, 230);
             this.txtboxTelephonNum.Name = "txtboxTelephonNum";
@@ -368,11 +384,13 @@
             // Vaccine
             // 
             this.Vaccine.AutoSize = true;
+            this.Vaccine.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.Vaccine.Font = new System.Drawing.Font("Rockwell", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Vaccine.Location = new System.Drawing.Point(14, 276);
             this.Vaccine.Name = "Vaccine";
-            this.Vaccine.Size = new System.Drawing.Size(292, 13);
+            this.Vaccine.Size = new System.Drawing.Size(346, 14);
             this.Vaccine.TabIndex = 32;
-            this.Vaccine.Text = "Vaccine Details (Kindly input Yes if applicable, otherwise No)";
+            this.Vaccine.Text = "Vaccine Details (Kindly write Yes if applicable, otherwise No)";
             // 
             // VaccinatedorNot
             // 
@@ -386,6 +404,7 @@
             // txtboxVaccinatedorNot
             // 
             this.txtboxVaccinatedorNot.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxVaccinatedorNot.Font = new System.Drawing.Font("Arial", 8.25F);
             this.txtboxVaccinatedorNot.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxVaccinatedorNot.Location = new System.Drawing.Point(128, 304);
             this.txtboxVaccinatedorNot.Name = "txtboxVaccinatedorNot";
@@ -404,6 +423,7 @@
             // txtbox1stDose
             // 
             this.txtbox1stDose.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbox1stDose.Font = new System.Drawing.Font("Arial", 8.25F);
             this.txtbox1stDose.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtbox1stDose.Location = new System.Drawing.Point(290, 304);
             this.txtbox1stDose.Name = "txtbox1stDose";
@@ -422,6 +442,7 @@
             // txtbox2ndDose
             // 
             this.txtbox2ndDose.BackColor = System.Drawing.SystemColors.Info;
+            this.txtbox2ndDose.Font = new System.Drawing.Font("Arial", 8.25F);
             this.txtbox2ndDose.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtbox2ndDose.Location = new System.Drawing.Point(466, 304);
             this.txtbox2ndDose.Name = "txtbox2ndDose";
@@ -440,6 +461,7 @@
             // txtboxBooster
             // 
             this.txtboxBooster.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxBooster.Font = new System.Drawing.Font("Arial", 8.25F);
             this.txtboxBooster.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxBooster.Location = new System.Drawing.Point(632, 304);
             this.txtboxBooster.Name = "txtboxBooster";
@@ -449,9 +471,11 @@
             // VisitationDetails
             // 
             this.VisitationDetails.AutoSize = true;
+            this.VisitationDetails.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.VisitationDetails.Font = new System.Drawing.Font("Rockwell", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VisitationDetails.Location = new System.Drawing.Point(14, 352);
             this.VisitationDetails.Name = "VisitationDetails";
-            this.VisitationDetails.Size = new System.Drawing.Size(84, 13);
+            this.VisitationDetails.Size = new System.Drawing.Size(102, 14);
             this.VisitationDetails.TabIndex = 41;
             this.VisitationDetails.Text = "Visitation Details";
             // 
@@ -467,6 +491,7 @@
             // txtboxDate
             // 
             this.txtboxDate.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxDate.Font = new System.Drawing.Font("Arial", 8.25F);
             this.txtboxDate.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxDate.Location = new System.Drawing.Point(116, 380);
             this.txtboxDate.Name = "txtboxDate";
@@ -485,6 +510,7 @@
             // txtboxTime
             // 
             this.txtboxTime.BackColor = System.Drawing.SystemColors.Info;
+            this.txtboxTime.Font = new System.Drawing.Font("Arial", 8.25F);
             this.txtboxTime.ForeColor = System.Drawing.SystemColors.InfoText;
             this.txtboxTime.Location = new System.Drawing.Point(520, 380);
             this.txtboxTime.Name = "txtboxTime";
@@ -507,6 +533,7 @@
             // closing
             // 
             this.closing.AutoSize = true;
+            this.closing.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.closing.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.closing.Location = new System.Drawing.Point(295, 423);
             this.closing.Name = "closing";
@@ -526,11 +553,24 @@
             this.bttnExit.UseVisualStyleBackColor = false;
             this.bttnExit.Click += new System.EventHandler(this.bttnExit_Click);
             // 
+            // PersonalInfo
+            // 
+            this.PersonalInfo.AutoSize = true;
+            this.PersonalInfo.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.PersonalInfo.Font = new System.Drawing.Font("Rockwell", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PersonalInfo.Location = new System.Drawing.Point(14, 50);
+            this.PersonalInfo.Name = "PersonalInfo";
+            this.PersonalInfo.Size = new System.Drawing.Size(123, 14);
+            this.PersonalInfo.TabIndex = 49;
+            this.PersonalInfo.Text = "Personal Information";
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(738, 486);
+            this.Controls.Add(this.PersonalInfo);
             this.Controls.Add(this.bttnExit);
             this.Controls.Add(this.closing);
             this.Controls.Add(this.bttnSubmit);
@@ -637,6 +677,7 @@
         private System.Windows.Forms.Button bttnSubmit;
         private System.Windows.Forms.Label closing;
         private System.Windows.Forms.Button bttnExit;
+        private System.Windows.Forms.Label PersonalInfo;
     }
 }
 

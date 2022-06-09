@@ -60,6 +60,7 @@ namespace Contact_Tracing
             file.WriteLine ("VISITATION DETAILS");
             file.WriteLine ("Date: " + txtboxDate.Text);
             file.WriteLine ("Time: " + txtboxTime.Text);
+            file.WriteLine("-----end of response------");
             file.Close();
         }
 
