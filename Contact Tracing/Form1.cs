@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Contact_Tracing
 {
-    public partial class Form1 : Form
+    public partial class S : Form
     {
-        public Form1()
+        public S()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
