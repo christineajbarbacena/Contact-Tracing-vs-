@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,6 +31,13 @@ namespace Contact_Tracing
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void bttnSubmit_Click(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter(@"C:\Users\barbacena\Documents\VisualStudioCTA\CTresponse.txt", true);
+            file.WriteLine();
+            file.Close();
         }
     }
 }

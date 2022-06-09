@@ -451,6 +451,7 @@
             this.bttnSubmit.TabIndex = 46;
             this.bttnSubmit.Text = "Submit";
             this.bttnSubmit.UseVisualStyleBackColor = true;
+            this.bttnSubmit.Click += new System.EventHandler(this.bttnSubmit_Click);
             // 
             // ContactTracing
             // 

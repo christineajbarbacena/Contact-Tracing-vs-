@@ -2,8 +2,8 @@ c:\users\barbacena\documents\visual studio 2013\Projects\Contact Tracing\Contact
 C:\Users\barbacena\Documents\Visual Studio 2013\Projects\Contact Tracing\Contact Tracing\bin\Debug\Contact Tracing.exe
 C:\Users\barbacena\Documents\Visual Studio 2013\Projects\Contact Tracing\Contact Tracing\bin\Debug\Contact Tracing.pdb
 C:\Users\barbacena\Documents\Visual Studio 2013\Projects\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.csprojResolveAssemblyReference.cache
-C:\Users\barbacena\Documents\Visual Studio 2013\Projects\Contact Tracing\Contact Tracing\obj\Debug\Contact_Tracing.S.resources
 C:\Users\barbacena\Documents\Visual Studio 2013\Projects\Contact Tracing\Contact Tracing\obj\Debug\Contact_Tracing.Properties.Resources.resources
 C:\Users\barbacena\Documents\Visual Studio 2013\Projects\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.csproj.GenerateResource.Cache
 C:\Users\barbacena\Documents\Visual Studio 2013\Projects\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.exe
 C:\Users\barbacena\Documents\Visual Studio 2013\Projects\Contact Tracing\Contact Tracing\obj\Debug\Contact Tracing.pdb
+C:\Users\barbacena\Documents\Visual Studio 2013\Projects\Contact Tracing\Contact Tracing\obj\Debug\Contact_Tracing.ContactTracing.resources
