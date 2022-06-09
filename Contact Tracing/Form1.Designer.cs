@@ -1,6 +1,6 @@
 ﻿namespace Contact_Tracing
 {
-    partial class S
+    partial class ContactTracing
     {
         /// <summary>
         /// Required designer variable.
@@ -37,6 +37,14 @@
             this.Suffix = new System.Windows.Forms.Label();
             this.txtboxLN = new System.Windows.Forms.TextBox();
             this.txtboxSuffix = new System.Windows.Forms.TextBox();
+            this.Birthdate = new System.Windows.Forms.Label();
+            this.txtboxbirthdate = new System.Windows.Forms.TextBox();
+            this.Gender = new System.Windows.Forms.Label();
+            this.CivilStatus = new System.Windows.Forms.Label();
+            this.Age = new System.Windows.Forms.Label();
+            this.txtboxgender = new System.Windows.Forms.TextBox();
+            this.txtboxage = new System.Windows.Forms.TextBox();
+            this.txtboxcivilstatus = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // title
@@ -114,11 +122,85 @@
             this.txtboxSuffix.Size = new System.Drawing.Size(74, 20);
             this.txtboxSuffix.TabIndex = 8;
             // 
-            // S
+            // Birthdate
+            // 
+            this.Birthdate.AutoSize = true;
+            this.Birthdate.Location = new System.Drawing.Point(14, 136);
+            this.Birthdate.Name = "Birthdate";
+            this.Birthdate.Size = new System.Drawing.Size(120, 13);
+            this.Birthdate.TabIndex = 9;
+            this.Birthdate.Text = "Birth Date (MM-DD-YY):";
+            // 
+            // txtboxbirthdate
+            // 
+            this.txtboxbirthdate.Location = new System.Drawing.Point(139, 129);
+            this.txtboxbirthdate.Name = "txtboxbirthdate";
+            this.txtboxbirthdate.Size = new System.Drawing.Size(94, 20);
+            this.txtboxbirthdate.TabIndex = 10;
+            // 
+            // Gender
+            // 
+            this.Gender.AutoSize = true;
+            this.Gender.Location = new System.Drawing.Point(385, 136);
+            this.Gender.Name = "Gender";
+            this.Gender.Size = new System.Drawing.Size(45, 13);
+            this.Gender.TabIndex = 11;
+            this.Gender.Text = "Gender:";
+            // 
+            // CivilStatus
+            // 
+            this.CivilStatus.AutoSize = true;
+            this.CivilStatus.Location = new System.Drawing.Point(553, 136);
+            this.CivilStatus.Name = "CivilStatus";
+            this.CivilStatus.Size = new System.Drawing.Size(62, 13);
+            this.CivilStatus.TabIndex = 12;
+            this.CivilStatus.Text = "Civil Status:";
+            this.CivilStatus.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // Age
+            // 
+            this.Age.AutoSize = true;
+            this.Age.Location = new System.Drawing.Point(255, 136);
+            this.Age.Name = "Age";
+            this.Age.Size = new System.Drawing.Size(29, 13);
+            this.Age.TabIndex = 13;
+            this.Age.Text = "Age:";
+            // 
+            // txtboxgender
+            // 
+            this.txtboxgender.Location = new System.Drawing.Point(453, 129);
+            this.txtboxgender.Name = "txtboxgender";
+            this.txtboxgender.Size = new System.Drawing.Size(74, 20);
+            this.txtboxgender.TabIndex = 14;
+            this.txtboxgender.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // txtboxage
+            // 
+            this.txtboxage.Location = new System.Drawing.Point(290, 129);
+            this.txtboxage.Name = "txtboxage";
+            this.txtboxage.Size = new System.Drawing.Size(74, 20);
+            this.txtboxage.TabIndex = 15;
+            // 
+            // txtboxcivilstatus
+            // 
+            this.txtboxcivilstatus.Location = new System.Drawing.Point(621, 129);
+            this.txtboxcivilstatus.Name = "txtboxcivilstatus";
+            this.txtboxcivilstatus.Size = new System.Drawing.Size(105, 20);
+            this.txtboxcivilstatus.TabIndex = 16;
+            // 
+            // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(738, 413);
+            this.Controls.Add(this.txtboxcivilstatus);
+            this.Controls.Add(this.txtboxage);
+            this.Controls.Add(this.txtboxgender);
+            this.Controls.Add(this.Age);
+            this.Controls.Add(this.CivilStatus);
+            this.Controls.Add(this.Gender);
+            this.Controls.Add(this.txtboxbirthdate);
+            this.Controls.Add(this.Birthdate);
             this.Controls.Add(this.txtboxSuffix);
             this.Controls.Add(this.txtboxLN);
             this.Controls.Add(this.Suffix);
@@ -128,7 +210,7 @@
             this.Controls.Add(this.txtboxFN);
             this.Controls.Add(this.FirstName);
             this.Controls.Add(this.title);
-            this.Name = "S";
+            this.Name = "ContactTracing";
             this.Text = "Contact Tracing";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -146,6 +228,14 @@
         private System.Windows.Forms.Label Suffix;
         private System.Windows.Forms.TextBox txtboxLN;
         private System.Windows.Forms.TextBox txtboxSuffix;
+        private System.Windows.Forms.Label Birthdate;
+        private System.Windows.Forms.TextBox txtboxbirthdate;
+        private System.Windows.Forms.Label Gender;
+        private System.Windows.Forms.Label CivilStatus;
+        private System.Windows.Forms.Label Age;
+        private System.Windows.Forms.TextBox txtboxgender;
+        private System.Windows.Forms.TextBox txtboxage;
+        private System.Windows.Forms.TextBox txtboxcivilstatus;
     }
 }
 

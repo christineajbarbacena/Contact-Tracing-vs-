@@ -10,14 +10,24 @@ using System.Windows.Forms;
 
 namespace Contact_Tracing
 {
-    public partial class S : Form
+    public partial class ContactTracing : Form
     {
-        public S()
+        public ContactTracing()
         {
             InitializeComponent();
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
