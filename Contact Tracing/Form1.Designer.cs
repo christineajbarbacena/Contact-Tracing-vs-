@@ -75,6 +75,7 @@
             this.txtboxTime = new System.Windows.Forms.TextBox();
             this.bttnSubmit = new System.Windows.Forms.Button();
             this.closing = new System.Windows.Forms.Label();
+            this.bttnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // title
@@ -458,17 +459,28 @@
             // 
             this.closing.AutoSize = true;
             this.closing.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.closing.Location = new System.Drawing.Point(237, 413);
+            this.closing.Location = new System.Drawing.Point(295, 423);
             this.closing.Name = "closing";
             this.closing.Size = new System.Drawing.Size(150, 20);
             this.closing.TabIndex = 47;
             this.closing.Text = "Thank you so much!";
+            // 
+            // bttnExit
+            // 
+            this.bttnExit.Location = new System.Drawing.Point(595, 448);
+            this.bttnExit.Name = "bttnExit";
+            this.bttnExit.Size = new System.Drawing.Size(131, 26);
+            this.bttnExit.TabIndex = 48;
+            this.bttnExit.Text = "Exit";
+            this.bttnExit.UseVisualStyleBackColor = true;
+            this.bttnExit.Click += new System.EventHandler(this.bttnExit_Click);
             // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(738, 486);
+            this.Controls.Add(this.bttnExit);
             this.Controls.Add(this.closing);
             this.Controls.Add(this.bttnSubmit);
             this.Controls.Add(this.txtboxTime);
@@ -572,6 +584,7 @@
         private System.Windows.Forms.TextBox txtboxTime;
         private System.Windows.Forms.Button bttnSubmit;
         private System.Windows.Forms.Label closing;
+        private System.Windows.Forms.Button bttnExit;
     }
 }
 

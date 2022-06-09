@@ -62,5 +62,10 @@ namespace Contact_Tracing
             file.WriteLine ("Time: " + txtboxTime.Text);
             file.Close();
         }
+
+        private void bttnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
