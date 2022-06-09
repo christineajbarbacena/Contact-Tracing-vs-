@@ -59,6 +59,16 @@
             this.txtboxEmailAdd = new System.Windows.Forms.TextBox();
             this.txtboxMobileNum = new System.Windows.Forms.TextBox();
             this.txtboxTelephonNum = new System.Windows.Forms.TextBox();
+            this.Vaccine = new System.Windows.Forms.Label();
+            this.VaccinatedorNot = new System.Windows.Forms.Label();
+            this.txtboxVaccinatedorNot = new System.Windows.Forms.TextBox();
+            this.FirstDose = new System.Windows.Forms.Label();
+            this.txtbox1stDose = new System.Windows.Forms.TextBox();
+            this.SecondDose = new System.Windows.Forms.Label();
+            this.txtbox2ndDose = new System.Windows.Forms.TextBox();
+            this.Booster = new System.Windows.Forms.Label();
+            this.txtboxBooster = new System.Windows.Forms.TextBox();
+            this.VisitationDetails = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // title
@@ -314,11 +324,103 @@
             this.txtboxTelephonNum.Size = new System.Drawing.Size(105, 20);
             this.txtboxTelephonNum.TabIndex = 31;
             // 
+            // Vaccine
+            // 
+            this.Vaccine.AutoSize = true;
+            this.Vaccine.Location = new System.Drawing.Point(14, 276);
+            this.Vaccine.Name = "Vaccine";
+            this.Vaccine.Size = new System.Drawing.Size(292, 13);
+            this.Vaccine.TabIndex = 32;
+            this.Vaccine.Text = "Vaccine Details (Kindly input Yes if applicable, otherwise No)";
+            // 
+            // VaccinatedorNot
+            // 
+            this.VaccinatedorNot.AutoSize = true;
+            this.VaccinatedorNot.Location = new System.Drawing.Point(14, 311);
+            this.VaccinatedorNot.Name = "VaccinatedorNot";
+            this.VaccinatedorNot.Size = new System.Drawing.Size(108, 13);
+            this.VaccinatedorNot.TabIndex = 33;
+            this.VaccinatedorNot.Text = "Are you vaccinated? ";
+            // 
+            // txtboxVaccinatedorNot
+            // 
+            this.txtboxVaccinatedorNot.Location = new System.Drawing.Point(128, 304);
+            this.txtboxVaccinatedorNot.Name = "txtboxVaccinatedorNot";
+            this.txtboxVaccinatedorNot.Size = new System.Drawing.Size(69, 20);
+            this.txtboxVaccinatedorNot.TabIndex = 34;
+            // 
+            // FirstDose
+            // 
+            this.FirstDose.AutoSize = true;
+            this.FirstDose.Location = new System.Drawing.Point(224, 311);
+            this.FirstDose.Name = "FirstDose";
+            this.FirstDose.Size = new System.Drawing.Size(57, 13);
+            this.FirstDose.TabIndex = 35;
+            this.FirstDose.Text = "First Dose:";
+            // 
+            // txtbox1stDose
+            // 
+            this.txtbox1stDose.Location = new System.Drawing.Point(290, 304);
+            this.txtbox1stDose.Name = "txtbox1stDose";
+            this.txtbox1stDose.Size = new System.Drawing.Size(69, 20);
+            this.txtbox1stDose.TabIndex = 36;
+            // 
+            // SecondDose
+            // 
+            this.SecondDose.AutoSize = true;
+            this.SecondDose.Location = new System.Drawing.Point(385, 311);
+            this.SecondDose.Name = "SecondDose";
+            this.SecondDose.Size = new System.Drawing.Size(75, 13);
+            this.SecondDose.TabIndex = 37;
+            this.SecondDose.Text = "Second Dose:";
+            // 
+            // txtbox2ndDose
+            // 
+            this.txtbox2ndDose.Location = new System.Drawing.Point(466, 304);
+            this.txtbox2ndDose.Name = "txtbox2ndDose";
+            this.txtbox2ndDose.Size = new System.Drawing.Size(69, 20);
+            this.txtbox2ndDose.TabIndex = 38;
+            // 
+            // Booster
+            // 
+            this.Booster.AutoSize = true;
+            this.Booster.Location = new System.Drawing.Point(555, 311);
+            this.Booster.Name = "Booster";
+            this.Booster.Size = new System.Drawing.Size(71, 13);
+            this.Booster.TabIndex = 39;
+            this.Booster.Text = "Booster Shot:";
+            // 
+            // txtboxBooster
+            // 
+            this.txtboxBooster.Location = new System.Drawing.Point(632, 304);
+            this.txtboxBooster.Name = "txtboxBooster";
+            this.txtboxBooster.Size = new System.Drawing.Size(69, 20);
+            this.txtboxBooster.TabIndex = 40;
+            // 
+            // VisitationDetails
+            // 
+            this.VisitationDetails.AutoSize = true;
+            this.VisitationDetails.Location = new System.Drawing.Point(14, 352);
+            this.VisitationDetails.Name = "VisitationDetails";
+            this.VisitationDetails.Size = new System.Drawing.Size(84, 13);
+            this.VisitationDetails.TabIndex = 41;
+            this.VisitationDetails.Text = "Visitation Details";
+            // 
             // ContactTracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(738, 413);
+            this.ClientSize = new System.Drawing.Size(738, 480);
+            this.Controls.Add(this.VisitationDetails);
+            this.Controls.Add(this.txtboxBooster);
+            this.Controls.Add(this.Booster);
+            this.Controls.Add(this.txtbox2ndDose);
+            this.Controls.Add(this.SecondDose);
+            this.Controls.Add(this.txtbox1stDose);
+            this.Controls.Add(this.FirstDose);
+            this.Controls.Add(this.txtboxVaccinatedorNot);
+            this.Controls.Add(this.VaccinatedorNot);
+            this.Controls.Add(this.Vaccine);
             this.Controls.Add(this.txtboxTelephonNum);
             this.Controls.Add(this.txtboxMobileNum);
             this.Controls.Add(this.txtboxEmailAdd);
@@ -390,6 +492,16 @@
         private System.Windows.Forms.TextBox txtboxEmailAdd;
         private System.Windows.Forms.TextBox txtboxMobileNum;
         private System.Windows.Forms.TextBox txtboxTelephonNum;
+        private System.Windows.Forms.Label Vaccine;
+        private System.Windows.Forms.Label VaccinatedorNot;
+        private System.Windows.Forms.TextBox txtboxVaccinatedorNot;
+        private System.Windows.Forms.Label FirstDose;
+        private System.Windows.Forms.TextBox txtbox1stDose;
+        private System.Windows.Forms.Label SecondDose;
+        private System.Windows.Forms.TextBox txtbox2ndDose;
+        private System.Windows.Forms.Label Booster;
+        private System.Windows.Forms.TextBox txtboxBooster;
+        private System.Windows.Forms.Label VisitationDetails;
     }
 }
 
